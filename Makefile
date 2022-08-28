@@ -1,7 +1,6 @@
 WOKWI_PROJECT_ID=341162950004834900
-# logic puzzle and muxes
-# 4 inverters 334348818476696146
-# the clock divider 334335179919196756
+# BCD to 7 segment decoder 
+# the dot in 7 segment display driven by clk/8192
 fetch:
 	curl https://wokwi.com/api/projects/$(WOKWI_PROJECT_ID)/verilog > src/user_module_$(WOKWI_PROJECT_ID).v
 	sed -e 's/USER_MODULE_ID/$(WOKWI_PROJECT_ID)/g' template/scan_wrapper.v > src/scan_wrapper_$(WOKWI_PROJECT_ID).v
