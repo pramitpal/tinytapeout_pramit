@@ -10,7 +10,7 @@ project:
   title:        "BCD to 7 Segment Decoder"
   description:  "Setting the DIP switches as a BCD Value displays the BCD Value 0-9 in the 7 segment display"
   how_it_works: "Display BCD Value given by user with the 7 segment display"
-  how_to_test:  "Turning on the first last 4 input switches to display BCD Value"
+  how_to_test:  "Turning on the last 4 input switches to display BCD Value"
   external_hw:  "None"
   doc_link:     "https://github.com/pramitpal/tinytapeout_pramit/blob/main/README.md"
   clock_hz:     0
